@@ -4,12 +4,10 @@ import Home from './Home';
 import About from './About';
 import Contact from './Contact';
 
-
+const currentYear = new Date().getFullYear();
+const isLoggedIn = false;
 
 function App() {
-
-  const currentYear = new Date().getFullYear();
-  const isLoggedIn = false;
 
   return (
     <div className="App">
